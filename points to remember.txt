@@ -1,0 +1,44 @@
+Q1.why static method cannot access non static data?
+
+Ans:A static method cannot access non-static data because a static method can be invoked before the creation of object but memory to the non-static data     is allocated only when the object of class is created.
+
+Q2.Why are static method required if the value of static context can also be modified with the help of normal method?
+Ans:Although the value of static context can be modified by normal method but we still need static method because if the value of static context has     to be modified than first we will have to create the object of the class and then call the non-static method.but if we will modify the     value     of static contect with the help of static method then we do not need to create the object of the class. 
+
+Q3.The abstract method can never be static, why?
+Ans:Abstract means "implements no functionality" and static means you have functionality even if you don't have any object.
+
+-->>Any subclass of an abstract class must either implement all of the abstract  methods or make itself as abstract.
+
+-->>Abstract class cannot be instantiated.
+
+-->>A function argument can never be static.
+
+-->>An uninitialized final variable is called as blank final variable.
+
+-->>A blank final variable can only be initialise in constructor.
+
+-->>Final variable cannot be initialised from member function.
+
+-->>Static final variable can only be initialised in static block.
+
+-->>Connecting method call to method body is known as binding.
+
+-->>Connecting method call to method body at compile time is known as static or early binding.
+
+-->>Connecting method call to method body at run time is known as dynamic binding.
+
+-->>Final static and private method are binded at compile time(called as static binding).
+
+-->>Abstract class cannot be instantiated.
+-->>The class extending abstract class must either implement all of its methods or should be abstract.
+-->>If a class has abstract method then the class must be abstract.
+-->>If an abstract class have a private member and abstract method then the private member is not accessible by implementation of the abstract method in sub class.
+-->>A private method cannot be abstract.
+
+
+-->>Compiler implicitly adds abstract public before all methods, and static final before all the data members present in the interface.
+
+Why string objects are immutable in java?
+
+Ans:-Because java uses the concept of string literal.Suppose there are 5 reference variables,all referes to one object "sachin".If one reference 	variable changes the value of the object, it will be affected to all the 	reference variables. That is why string objects are immutable in java.

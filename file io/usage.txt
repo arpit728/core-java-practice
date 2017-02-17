@@ -1,0 +1,3 @@
+FileInputStream:-byte oriented data(read image, audio, video etc.) and primitive data
+
+FileReaderFileWriter:-Character oriented dat,Text files

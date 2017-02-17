@@ -1,0 +1,22 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+
+class PalindromePairs {	
+	public static void main(String[] args){
+		try{
+		int t,n;
+		String w[]=null;
+		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+		t=Integer.parseInt(br.readLine());
+		while(t-->0){
+			n=Integer.parseInt(br.readLine());
+			w=new String[n];
+			w=br.readLine().split(" ");
+			
+		}
+		}
+		catch(Exception e){}
+	}
+
+}

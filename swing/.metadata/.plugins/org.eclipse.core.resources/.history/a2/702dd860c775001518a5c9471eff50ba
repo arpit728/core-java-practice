@@ -1,0 +1,9 @@
+
+class Experiment {
+	
+	public static void main(String[] args) {
+		String s1="a",s2="b";
+		StringBuilder s=new StringBuilder();
+	}
+
+}

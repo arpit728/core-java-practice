@@ -1,0 +1,31 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+
+class PalindromePairs {	
+	public static void main(String[] args){
+		try{
+			int t,n;
+			String w[]=null;
+			BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+			t=Integer.parseInt(br.readLine());
+			while(t-->0){
+				n=Integer.parseInt(br.readLine());
+				w=new String[n];
+				w=br.readLine().split(" ");
+				int m=0,p=0;
+				for (int i = 0,j=0; i < n-1; i++) {
+					for (j = i+1; j < n	; j++) {
+							StringBuilder s=new StringBuilder(w[i].concat(w[j]));
+							if(s.equals(s.reverse()))p++;
+					}
+				}
+				System.out.println(p);
+			}
+			
+		}
+		catch(Exception e){}
+	
+	}
+
+}

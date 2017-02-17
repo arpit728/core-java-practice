@@ -1,0 +1,1 @@
+Q.1 Why it is possible to access non static variable from static block after creating the object of class in static block?s

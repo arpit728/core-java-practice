@@ -1,0 +1,2 @@
+Abstract Factor pattern
+HashSet
